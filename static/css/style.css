@@ -23,6 +23,10 @@ body {
     margin: 12px;
 }
 
+img {
+    width: 200px;
+}
+
 
 /* Right column take 25% */
 
@@ -35,7 +39,7 @@ body {
 
 .icon {
     position: fixed;
-    top: 50%;
+    top: 14%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -87,6 +91,13 @@ body {
 
 @media (max-width:600px) {
     .icon {
-        width: auto;
+        top: 14%;
+        ;
+    }
+}
+
+@media (max-width:400px) {
+    .img {
+        width: 150px;
     }
 }
