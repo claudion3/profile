@@ -89,7 +89,7 @@ img {
     margin-top: auto;
 }
 
-@media (max-width:600px) {
+@media (max-width:400px) {
     .icon {
         top: 16%;
         ;
